@@ -1,10 +1,16 @@
+import { Lusitana } from 'next/font/google';
+
+const lusitana = Lusitana({
+  weight: '400',
+  subsets: ['latin'],
+});
 import {
   BanknotesIcon,
   ClockIcon,
   UserGroupIcon,
   InboxIcon,
 } from '@heroicons/react/24/outline';
-import { lusitana } from '@/app/ui/fonts';
+
 
 const iconMap = {
   collected: BanknotesIcon,
