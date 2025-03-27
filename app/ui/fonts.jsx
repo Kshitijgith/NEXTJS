@@ -4,4 +4,4 @@ const lusitana = Lusitana({
   weight: '400',
   subsets: ['latin'],
 });
-export default lusitana;
+export {lusitana}
