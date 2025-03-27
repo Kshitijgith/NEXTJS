@@ -18,6 +18,7 @@ export default function Page() {
       src='/opengraph-image.png'
       width={400}
       height={760}
+      alt="Screenshots of the dashboard project showing desktop version"
       />
     </main>
   );
